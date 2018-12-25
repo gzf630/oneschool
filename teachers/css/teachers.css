@@ -1,0 +1,110 @@
+/*container  start*/
+
+.container {
+	max-width: 1030px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+.container h2 {
+	padding-top: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+	color: #6b7380;
+}
+
+.container>p {
+	padding-top: 19px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 24px;
+	color: #888;
+}
+
+.grid {
+	margin: 30px auto;
+	padding: 0;
+}
+
+.grid li {
+	width: 25%;
+	height: 801px;
+	padding: 0 15px;
+	float: left;
+	opacity: 0;
+	box-sizing: border-box;
+}
+
+.grid li.shown,
+.no-js .grid li,
+.no-cssanimations .grid li {
+	opacity: 1;
+}
+
+.grid li>img {
+	outline: none;
+	border: none;
+	display: block;
+	max-width: 100%;
+}
+
+.grid li article {
+	padding-top: 16px;
+	line-height: 24px;
+	text-indent: 28px;
+	font-size: 14px;
+	color: #888;
+}
+
+.grid li article h3 {
+	text-indent: 0;
+	line-height: 24px;
+	padding-top: 5px;
+	font-size: 18px;
+	color: #888;
+}
+
+.grid li article span {
+	display: block;
+	text-indent: 0;
+}
+
+@media screen and (max-width:1000px) {
+	.grid li {
+		width: 33.33333333333333333333333333333333333%;
+	}
+	.grid li>img {
+		display: block;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width:760px) {
+	.grid li {
+		height: auto;
+		padding: 0 5px;
+		margin-bottom: 22px;
+		overflow: hidden;
+		cursor: pointer;
+	}
+	.grid li article {
+		display: none;
+	}
+}
+
+@media screen and (max-width:480px) {
+	.grid li {
+		width: 50%;
+	}
+	.container {
+		padding-bottom: 30px;
+	}
+	.container p {
+		font-size: 18px;
+	}
+	.container h2 {
+		font-size: 22px;
+	}
+}

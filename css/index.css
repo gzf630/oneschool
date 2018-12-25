@@ -1,0 +1,761 @@
+/*lunbo*/
+
+.m {
+	width: 100%;
+	height: auto;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.m img {
+	width: 100%;
+	margin: 0 auto;
+	display: block;
+}
+
+.bx-viewport {
+	border: none;
+}
+
+.bx-wrapper {
+	margin: 0 auto 45px;
+}
+
+
+/*h*/
+
+h2 {
+	font-size: 3.6em;
+	color: #000000;
+	font-weight: normal;
+}
+
+img {
+	width: 100%;
+	display: block;
+	height: 100%;
+}
+
+section * {
+	transition: all .35s;
+}
+
+
+/*fuwu*/
+
+.fuwu,
+.course,
+.mien,
+.works,
+.student,
+.employment {
+	max-width: 1000px;
+	margin: 0 auto 25px auto;
+	padding: 0 15px;
+}
+
+.fuwu ul {
+	width: 100%;
+	display: flex;
+}
+
+.fuwu ul a {
+	width: 25%;
+	padding: 35px 0;
+	transition: all .35s;
+	border-bottom: 5px solid #FFFFFF;
+}
+
+.fuwu ul a:hover {
+	border-bottom-color: #FA9634;
+}
+
+.fuwu ul a li .img {
+	display: block;
+	transition: all .35s;
+	margin-right: 19px;
+	float: left;
+	width: 55px;
+	height: 50px;
+	margin-left: 20px;
+}
+
+.fuwu ul a:first-of-type li .img {
+	background: url(../img/service_1_1.jpg) no-repeat center;
+}
+
+.fuwu ul a:nth-of-type(2) li .img {
+	background: url(../img/service_2_1.jpg) no-repeat center;
+}
+
+.fuwu ul a:nth-of-type(3) li .img {
+	background: url(../img/service_3_1.jpg) no-repeat;
+}
+
+.fuwu ul a:last-of-type li .img {
+	background: url(../img/service_4_1.jpg) no-repeat;
+}
+
+.fuwu ul a:first-of-type:hover li .img {
+	background: url(../img/service_1_2.jpg) no-repeat;
+}
+
+.fuwu ul a:nth-of-type(2):hover li .img {
+	background: url(../img/service_2_2.jpg) no-repeat center;
+}
+
+.fuwu ul a:nth-of-type(3):hover li .img {
+	background: url(../img/service_3_2.jpg) no-repeat;
+}
+
+.fuwu ul a:last-of-type:hover li .img {
+	background: url(../img/service_4_2.jpg) no-repeat;
+}
+
+.fuwu ul a li p:first-of-type {
+	font-size: 1.7em;
+	color: #222222;
+	margin-bottom: 14px;
+	text-indent: 15px;
+}
+
+.fuwu ul a li .ellipsis {
+	font-size: 1.2em;
+	color: #888888;
+	text-indent: 15px;
+}
+
+
+/*course*/
+
+.course h2 {
+	margin-bottom: 35px;
+}
+
+.course ul {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.course ul a {
+	position: relative;
+	width: 33.33333%;
+	border: 1px solid #dedede;
+	padding: 17px 0 22px 0;
+	box-sizing: border-box;
+}
+
+.course ul a li {
+	width: 100%;
+}
+
+.course ul a li span {
+	display: block;
+	margin: 0 auto 18px auto;
+	width: 36.14457831%;
+}
+
+.course ul a li span img {
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+
+.course ul a li h4 {
+	font-size: 2.4em;
+	font-weight: normal;
+	color: #000102;
+	text-align: center;
+}
+
+.course ul a li div {
+	position: absolute;
+	transition: all .5s;
+	opacity: 0;
+	padding: 15px;
+	box-sizing: border-box;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.course ul a li div h4 {
+	font-size: 2.4em;
+	line-height: 50px;
+	color: white;
+}
+
+.course ul a li div p {
+	font-size: 1.4em;
+	line-height: 22px;
+	color: #fff;
+}
+
+.course ul a:nth-of-type(2n-1) li div {
+	background: #90c166;
+}
+
+.course ul a:nth-of-type(2n) li div {
+	background: #fa9634;
+}
+
+.course ul a:hover li div {
+	opacity: 1;
+}
+
+
+/*mien*/
+
+.mien h2 {
+	margin-bottom: 33px;
+}
+
+.mien h2 a {
+	display: inline-block;
+	font-size: 0.3em;
+	color: #FFA500;
+	display: inline-block;
+	float: right;
+	line-height: 47px;
+}
+
+.mien ul {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.mien ul li {
+	width: 30%;
+}
+
+.mien ul li span {
+	display: block;
+	overflow: hidden;
+	width: 100%;
+	margin-bottom: 18px;
+}
+
+.mien ul li span img {
+	display: block;
+	width: 100%;
+	transition: all .5s ease-out;
+}
+
+.mien ul li:hover span img {
+	transform: scale(1.2);
+}
+
+.mien ul li>a {
+	font-size: 1.8em;
+	color: #333333;
+	line-height: 37px;
+}
+
+.mien ul li>a:hover {
+	color: #FA9634;
+}
+
+.mien ul li p {
+	font-size: 1.4em;
+	color: #888888;
+	line-height: 31px;
+	margin-bottom: 32px;
+}
+
+.btn1 {
+	display: none;
+	width: 113px;
+	height: 35px;
+	line-height: 35px;
+	background: #fa9634;
+	cursor: pointer;
+	margin: 10px auto;
+	font-size: 1.4em;
+	border-radius: 6px;
+	text-align: center;
+	color: #fff;
+}
+
+
+/*works*/
+
+.works h2 {
+	margin-bottom: 34px;
+}
+
+.works ul {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.works ul li {
+	width: 20%;
+	position: relative;
+	cursor: pointer;
+}
+
+.works ul li .cover {
+	position: absolute;
+	transition: all .5s ease-in;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	opacity: 0;
+	background: rgba(244, 117, 6, .9);
+	color: #FFF;
+}
+
+.works ul li:hover .cover {
+	opacity: 1;
+}
+
+.works ul li .cover h4 {
+	padding-top: 40px;
+	text-align: center;
+	font-size: 2.4em;
+}
+
+.works ul li .cover p {
+	text-align: center;
+	font-size: 1.8em;
+}
+
+.works ul li .cover p:first-of-type {
+	line-height: 60px;
+	margin-bottom: 10px;
+}
+
+.works ul li span {
+	width: 100%;
+	display: block;
+}
+
+.btn1 {
+	position: relative;
+}
+
+.btn1 li {
+	position: absolute;
+	width: 100%;
+	line-height: 35px;
+}
+
+.btn1 li a {
+	color: #fff;
+}
+
+.hover {
+	display: none;
+}
+
+
+/*student*/
+
+.student h2 {
+	margin-bottom: 32px;
+}
+
+.student ul {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.student ul li {
+	width: 24%;
+	margin-bottom: 10px;
+	position: relative;
+	cursor: pointer;
+}
+
+.student ul li .cover {
+	position: absolute;
+	opacity: 0;
+	transition: all .5s ease-in;
+	background: #90C166;
+	left: 0;
+	top: 0;
+	color: #fff;
+	width: 100%;
+	height: 100%;
+}
+
+.student ul li .cover h4 {
+	padding-top: 30px;
+	font-weight: normal;
+	text-align: center;
+	font-size: 1.8em;
+}
+
+.student ul li .cover p {
+	text-align: center;
+	font-size: 1.8em;
+}
+
+.student ul li .cover p:first-of-type {
+	margin-top: 10px;
+	line-height: 60px;
+	margin-bottom: 10px;
+}
+
+.student ul li .cover p:last-of-type {
+	font-size: 2.4em;
+}
+
+.student ul li:hover .cover {
+	opacity: 1;
+}
+
+
+/*employment*/
+
+.employment {
+	padding-bottom: 35px;
+}
+
+.employment h2 {
+	margin-bottom: 34px;
+}
+
+.employment ul {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.employment ul li {
+	width: 16%;
+	margin-bottom: 10px;
+}
+
+
+/*断点*/
+
+@media only screen and (min-width:1001px) {}
+
+@media only screen and (min-width:761px) and (max-width:1000px) {
+	.fuwu ul a {
+		padding: 15px 5px;
+		box-sizing: border-box;
+	}
+	h2 {
+		margin-bottom: 30px;
+	}
+	.mien ul li {
+		width: 32%;
+	}
+	.course ul a li div {
+		display: none;
+	}
+	.works ul li .cover {
+		display: none;
+	}
+	.student ul li .cover h4 {
+		padding-top: 25px;
+		font-size: 1.6em;
+	}
+	.student ul li .cover p:first-of-type {
+		margin-top: 0;
+		font-size: 1.6em;
+		line-height: 25px;
+	}
+	.student ul li .cover p:last-of-type {
+		font-size: 1.8em;
+	}
+}
+
+@media only screen and (min-width:710px) and (max-width:760px) {
+	.fuwu ul a {
+		padding: 15px 5px;
+		box-sizing: border-box;
+	}
+	.fuwu ul a li .ellipsis {
+		display: none;
+	}
+	.fuwu ul a {
+		padding: 0;
+		box-sizing: border-box;
+	}
+	.fuwu ul a li p {
+		display: block;
+		text-align: center;
+		margin-top: 19px;
+		margin-bottom: 0;
+	}
+	.fuwu ul a li .img {
+		float: none;
+		margin: 0 auto;
+	}
+	.fuwu ul a li p span {
+		display: none;
+	}
+	h2 {
+		margin-bottom: 30px;
+	}
+	.mien ul li {
+		width: 32%;
+	}
+	.course ul a {
+		border: none;
+	}
+	.course ul a li span {
+		width: 50%;
+	}
+	.course ul a li h4 {
+		font-size: 1.8em;
+	}
+	.course ul a li div {
+		display: none;
+	}
+	.works ul li .cover {
+		display: none;
+	}
+	.student ul li .cover {
+		display: none;
+	}
+	.mien ul li {
+		width: 48%;
+	}
+	.mien h2 {
+		margin-bottom: 17px;
+	}
+	.works h2 {
+		margin-bottom: 17px;
+	}
+	.student h2 {
+		margin-bottom: 17px;
+	}
+	.employment h2 {
+		margin-bottom: 17px;
+	}
+	.btn1 {
+		display: block;
+	}
+	.none {
+		display: none;
+	}
+	.works ul {
+		justify-content: space-between;
+	}
+	.works ul li {
+		width: 24%;
+		margin-bottom: 10px;
+		/*padding-left:7px; padding-right:7px;*/
+		/*box-sizing:border-box;*/
+	}
+	.student ul li:hover .cover {
+		display: none;
+	}
+	.student ul {
+		justify-content: flex-start;
+	}
+	.student ul li {
+		width: 33.33%;
+		padding-right: 10px;
+		box-sizing: border-box;
+	}
+	.student ul li:nth-of-type(3n) {
+		padding-right: 0;
+	}
+	.employment ul {
+		justify-content: flex-start;
+	}
+	.employment ul li {
+		width: 25%;
+		margin-bottom: 10px;
+		padding-right: 10px;
+		box-sizing: border-box;
+	}
+	.employment ul li:nth-of-type(4n) {
+		padding-right: 0;
+	}
+}
+
+@media only screen and (max-width:710px) {
+	h2 {
+		margin-bottom: 15px;
+		font-size: 2.4em;
+	}
+	.fuwu ul a li .ellipsis {
+		display: none;
+	}
+	.fuwu ul a {
+		padding: 0;
+		box-sizing: border-box;
+	}
+	.fuwu ul a li p {
+		display: block;
+		text-align: center;
+		margin-top: 19px;
+		margin-bottom: 0;
+	}
+	.fuwu ul a li .img {
+		float: none;
+		margin: 0 auto;
+	}
+	.fuwu ul a li p span {
+		display: none;
+	}
+	.course ul a {
+		border: none;
+	}
+	.course ul a li span {
+		width: 50%;
+	}
+	.course ul a li h4 {
+		font-size: 1.8em;
+	}
+	.course ul a li div {
+		display: none;
+	}
+	.works ul li .cover {
+		display: none;
+	}
+	.student ul li .cover {
+		display: none;
+	}
+	.works ul li .cover {
+		display: none;
+	}
+	.mien ul li {
+		width: 48%;
+	}
+	.mien h2 {
+		margin-bottom: 17px;
+	}
+	.works h2 {
+		margin-bottom: 17px;
+	}
+	.student h2 {
+		margin-bottom: 17px;
+	}
+	.employment h2 {
+		margin-bottom: 17px;
+	}
+	.btn1 {
+		display: block;
+	}
+	.none {
+		display: none;
+	}
+	.works ul {
+		justify-content: space-between;
+	}
+	.works ul li {
+		width: 24%;
+		margin-bottom: 10px;
+		/*padding-left:7px; padding-right:7px;*/
+		/*box-sizing:border-box;*/
+	}
+	.student ul {
+		justify-content: flex-start;
+	}
+	.student ul li {
+		width: 33.33%;
+		padding-right: 10px;
+		box-sizing: border-box;
+	}
+	.student ul li:nth-of-type(3n) {
+		padding-right: 0;
+	}
+	.employment ul {
+		justify-content: flex-start;
+	}
+	.employment ul li {
+		width: 25%;
+		margin-bottom: 10px;
+		padding-right: 10px;
+		box-sizing: border-box;
+	}
+	.employment ul li:nth-of-type(4n) {
+		padding-right: 0;
+	}
+}
+
+@media only screen and (max-width:680px) {
+	h2 {
+		margin-bottom: 15px;
+		font-size: 2.4em;
+	}
+	.works ul li .cover {
+		display: none;
+	}
+	.course ul {
+		flex-wrap: wrap;
+	}
+	.mien ul li p {
+		display: none;
+	}
+	.works {
+		padding: 0 10px;
+	}
+	.works ul {
+		display: flex;
+		justify-content: flex-start;
+	}
+	.works ul li {
+		width: 33.3%;
+		padding-left: 5px;
+		padding-right: 5px;
+		box-sizing: border-box;
+		margin-bottom: 10px;
+	}
+	.student ul li:hover .cover {
+		display: none;
+	}
+	.student ul li {
+		width: 50%;
+		padding-right: 10px;
+		box-sizing: border-box;
+	}
+	.student ul li:nth-of-type(3n) {
+		padding-right: 10px;
+	}
+	.student ul li:nth-of-type(2n) {
+		padding-right: 0;
+	}
+	.bx {
+		display: block;
+	}
+	.employment ul li {
+		width: 33.333%;
+		margin-bottom: 10px;
+		padding-right: 10px;
+		box-sizing: border-box;
+	}
+	.employment ul li:nth-of-type(4n) {
+		padding-right: 10px;
+	}
+	.employment ul li:nth-of-type(3n) {
+		padding-right: 0;
+	}
+}
+
+@media only screen and (max-width:480px) {
+	h2 {
+		margin-bottom: 15px;
+		font-size: 2.4em;
+	}
+	.course ul a {
+		width: 50%;
+	}
+	.works ul li:hover .cover {
+		display: none;
+	}
+	.mien ul li:hover span img {
+		transform: none;
+		!important
+	}
+	.employment ul li:nth-of-type(3n) {
+		padding-right: 0;
+	}
+	/*.mien ul li span img{transform:inherit;}*/
+}

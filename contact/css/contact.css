@@ -1,0 +1,157 @@
+.mains {
+	max-width: 1030px;
+	margin: 7px auto 40px auto;
+	padding: 0 15px;
+	box-sizing: border-box;
+}
+
+.mains h4 {
+	font-size: 1.7em;
+	color: #fa9634;
+	text-align: center;
+	line-height: 47px;
+}
+
+.mains p {
+	text-align: center;
+	font-size: 2.2em;
+	color: #000000;
+	font-weight: bold;
+}
+
+.mains p:last-of-type {
+	font-weight: normal;
+	font-size: 1.5em;
+}
+
+.mains img {
+	width: auto;
+	height: auto;
+	max-width: 100%;
+	display: block;
+	margin: 40px auto 70px auto;
+}
+
+.mains p:nth-of-type(2),
+.mains p:nth-of-type(3) {
+	display: flex;
+}
+
+.mains p span {
+	width: 33%;
+}
+
+.mains p span:first-of-type {
+	text-align: right;
+}
+
+.mains p span:last-of-type {
+	text-align: left;
+}
+
+.iw_poi_title {
+	color: #CC5522;
+	font-size: 14px;
+	font-weight: bold;
+	overflow: hidden;
+	padding-right: 13px;
+	white-space: nowrap
+}
+
+.iw_poi_content {
+	font: 12px arial, sans-serif;
+	overflow: visible;
+	padding-top: 4px;
+	white-space: -moz-pre-wrap;
+	word-wrap: break-word
+}
+
+#dituContent {
+	margin-bottom: 40px;
+}
+
+.aspect {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	right: 5%;
+	top: 10%;
+	max-width: 150px;
+	max-height: 150px;
+	z-index: 222;
+}
+
+.aspect img {
+	display: block;
+	width: 100%;
+}
+
+.map {
+	max-width: 1030px;
+	margin: 0 auto;
+	position: relative;
+	max-height: 500px;
+	padding: 0 15px;
+	box-sizing: border-box;
+	margin-bottom: 30px;
+}
+
+.map {
+	max-width: 1030px;
+	margin: 0 auto;
+	max-height: 500px;
+	padding: 0 15px;
+	box-sizing: border-box;
+	margin-bottom: 30px;
+}
+
+#dituContent {
+	height: 500px;
+}
+
+@media only screen and (max-width:600px) {
+	.mains p:nth-of-type(2),
+	.mains p:nth-of-type(3) {
+		flex-wrap: wrap;
+	}
+	.mains p span {
+		width: 50%;
+		line-height: 37px;
+	}
+	.mains p span:first-of-type {
+		text-align: center;
+	}
+	.mains p span:last-of-type {
+		text-align: center;
+		width: 100%;
+	}
+	#dituContent {
+		height: 400px;
+	}
+	.mains p {
+		text-align: center;
+		font-size: 1.8em;
+		color: #222;
+		font-weight: normal;
+	}
+}
+
+@media only screen and (max-width:480px) {
+	.mains p:nth-of-type(2),
+	.mains p:nth-of-type(3) {
+		flex-wrap: wrap;
+	}
+	.mains p span {
+		width: 100%;
+		line-height: 37px;
+	}
+	#dituContent {
+		height: 350px;
+	}
+	.map {
+		padding-bottom: 50px;
+	}
+	.mains p span:first-of-type {
+		text-align: center;
+	}
+}

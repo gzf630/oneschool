@@ -1,0 +1,45 @@
+body {
+	background: #F2F2F2;
+}
+
+img {
+	width: auto;
+	height: auto;
+	margin: 0 auto 5px auto;
+}
+
+.part {
+	width: 90%;
+	margin: 50px auto;
+}
+
+.part ul h3 {
+	font-size: 2em;
+	color: #F99639;
+	margin-bottom: 10px;
+	line-height: 40px;
+}
+
+.part ul li {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 10px 5px;
+	border-bottom: 3px dashed #888888;
+}
+
+.part ul li a {
+	width: 50%;
+	margin-bottom: 20px;
+}
+
+.part ul li span {
+	display: block;
+	text-align: center;
+	color: rgb(195, 176, 145);
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.part ul li span:hover {
+	color: red;
+}

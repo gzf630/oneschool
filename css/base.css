@@ -1,0 +1,31 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.clearfix:after{
+	height: 0;
+	display: block;
+	clear: both;
+	content:'.';
+	visibility: hidden;
+}
+body{
+	font-size:62.5%;
+	font-family: "微软雅黑";
+}
+section *{ 	transition: all .35s;}
+img{ display:block; margin:0 auto;}
+.ellipsis{
+white-space: nowrap;/*空白不换行*/
+overflow:hidden;/*溢出隐藏*/
+text-overflow:ellipsis;/*显示省略号*/
+}
+a{text-decoration: none; }
+ul,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,label,form,p,ol,nav,header,section,aside,dialog,figure,figcaption
+,hgroup,article,footer{display: block;}
+@media only screen and (max-width: 500px) {
+	section *{transition:none;}
+}
+@media only screen and (max-width:480px) {
+	#up{display:none !important; }
+}

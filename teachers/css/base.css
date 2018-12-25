@@ -1,0 +1,18 @@
+
+*{margin:0; padding:0;}			ul,li,p,ol,h1,h2,h3,h4,h5,h6,form,label,dl,dt,ddheader,footer,nav,section,aside,dialog,figure,figcaption,hgroup,article{display:block;}
+ul{list-style:none}
+.clearfix:after{display:block; height:0; clear:both; content:'.'; visibility:hidden;}
+.ellipsis{
+white-space: nowrap;
+overflow:hidden;
+text-overflow:ellipsis;
+}
+a{text-decoration:none;}
+body{font-family: "Hiragino Sans GB","Hiragino Sans GBW3","Microsoft Yahei",STHeiti,SimSun,helvetica,arial,
+sans-serif;}	
+
+
+
+
+
+

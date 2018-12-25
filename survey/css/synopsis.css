@@ -1,0 +1,127 @@
+img {
+	display: block;
+	width: 100%;
+}
+
+.wrapper {
+	max-width: 1030px;
+	margin: 40px auto 75px auto;
+	padding: 0 15px;
+}
+
+.wrapper ul {
+	width: 26.31067%;
+	float: left;
+	border-right: 1px solid #bababa;
+	padding-right: 17px;
+	box-sizing: border-box;
+}
+
+.wrapper ul a {
+	display: block;
+	border-bottom: 4px solid #FFFFFF;
+	padding: 21px 0;
+}
+
+.wrapper ul a li .img {
+	width: 40px;
+	float: left;
+	margin-left: 10%;
+	margin-right: 6%;
+	height: 40px;
+}
+
+.wrapper ul .bx-stop li .img {
+	background: url(../img/xygk_03.jpg) no-repeat center;
+}
+
+.wrapper ul a:last-of-type li .img {
+	background: url(../img/xygk_06.jpg) no-repeat center;
+}
+
+.wrapper ul a:last-of-type:hover li .img {
+	background: url(../img/xygk_07.jpg) no-repeat center;
+}
+
+.wrapper ul a li span {
+	font-size: 2.2em;
+	line-height: 40px;
+	float: left;
+	color: #222222;
+}
+
+.wrapper ul a:hover {
+	border-bottom-color: #FA9634;
+}
+
+.wrapper ul .bx-stop {
+	border-bottom: 4px solid #FA9634;
+	!important
+}
+
+.wrapper article {
+	width: 69.02%;
+	float: right;
+}
+
+.wrapper article p {
+	line-height: 30px;
+	font-size: 1.6em;
+	text-indent: 25px;
+	color: #000000;
+}
+
+.wrapper article span {
+	display: block;
+	width: 100%;
+	margin: 15px 0 30px 0;
+}
+
+@media only screen and (max-width:760px) {
+	.wrapper ul {
+		clear: both;
+		width: 100%;
+		border: none;
+		display: flex;
+	}
+	.wrapper ul a {
+		width: 50%;
+		padding: 13px 0 3px 0;
+	}
+	.wrapper ul a:hover {
+		border-bottom: 4px solid #fff;
+	}
+	.wrapper ul a li .img {
+		clear: both;
+		clear: both;
+		margin-left: calc(50% - 20px);
+	}
+	.wrapper ul a li span {
+		float: none;
+		clear: both;
+		font-weight: normal;
+		font-size: 2em;
+		display: block;
+		text-align: center;
+	}
+	.wrapper article {
+		clear: both;
+		margin: 12px auto;
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width:500px) {
+	.wrapper ul a li span {
+		font-size: 1.6em;
+		font-family: "宋体";
+	}
+	.wrapper article p {
+		font-size: 1.4em;
+		font-family: "宋体";
+		color: #333;
+	}
+	.wrapper {
+		margin-top: 28px;
+	}
+}
